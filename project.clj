@@ -10,8 +10,8 @@
 
   :source-paths  ["src/main" "src/devcards" "src/test"]
 
-  :dependencies [[org.clojure/clojure "1.9.0-alpha19" :scope "provided"]
-                 [org.clojure/clojurescript "1.9.908" :scope "provided" :classifier "aot"
+  :dependencies [[org.clojure/clojure "1.10.1" :scope "provided"]
+                 [org.clojure/clojurescript "1.10.520" :scope "provided" :classifier "aot"
                   :exclusions [org.clojure/clojure
                                org.clojure/data.json]]
                  [org.clojure/data.json "0.2.6" :scope "provided" :classifier "aot"]

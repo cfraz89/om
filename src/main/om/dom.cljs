@@ -1,8 +1,8 @@
 (ns om.dom
   (:refer-clojure :exclude [map mask meta time select])
   (:require-macros [om.dom :as dom])
-  (:require [cljsjs.react]
-            [cljsjs.react.dom]
+  (:require [react]
+            [react.dom]
             [om.util :as util]
             [goog.object :as gobj]))
 
